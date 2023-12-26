@@ -1,0 +1,16 @@
+    5 FOR MN = 1 TO 20
+   10   MODE MN
+   20   GCOL 0, 1
+   30   PLOT 4, 100, 300
+   40   FOR I = 0 TO 10
+   50     PLOT 1, 10, 0
+   60     PLOT 0, 10, 0
+   70   NEXT I
+  100   PLOT 4, 100, 200
+  110   FOR I = 100 TO 300 STEP 20
+  120     PLOT 4, I, 200
+  130     PLOT 5, I+10, 200
+  140   NEXT I
+  150   PRINT "MODE " MN
+  160   INPUT "PRESS ENTER FOR NEXT MODE";f$
+  170 NEXT MN

@@ -1,0 +1,11 @@
+   10 REM triangle
+   40 VDU 12: REM CLS
+   50 CLG
+   60 GCOL 3,1
+   70 c=INT(8*RND(1))
+   80 MOVE 640, 512
+   90 DRAW 500, 720
+   92 DRAW 400,600
+   94 DRAW 640, 512
+  100 GOTO 70
+  110 END
